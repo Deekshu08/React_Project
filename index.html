@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Deeksha is here!</h1>  
+      <!-- It is replaced by parent tag when I refresh the page -->
+      
+      <!-- It is the 1st type that will created a Hello World by using HTML. -->
+
+      <!-- <h1>Hello World!</h1>  -->
+    </div>
+
+
+    <!-- It is the 2nd type that will created a Hello World by using JavaScript. -->
+
+    <!-- <script>
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello World from JavaScript";
+      const root = document.getElementById("root");
+      root.appendChild(heading);
+    </script> -->
+
+    <!-- It is the 3rd type that will created a Hello World by using React. -->
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <!-- <script>
+      const heading = React.createElement(
+        "h1",
+        { id: "heading", xyz: "abc" },
+        "Hello world from React!"
+      );
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(heading);
+    </script> -->
+    <script src="./app.js"></script>
+  </body>
+</html>
